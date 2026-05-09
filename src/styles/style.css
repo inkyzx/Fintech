@@ -7,6 +7,7 @@ header {
     gap: 139px;
     background-color: var(--color-secondary);
     padding: 45px;
+    border-bottom: 2px solid var(--color-primary);
 }
 
 header .nav-header ul {
@@ -15,8 +16,14 @@ header .nav-header ul {
     list-style: none;
 }
 
-header .nav-header ul li {
+header .nav-header ul li a{
     color: var(--color-neutral-white);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+header .nav-header ul li a:hover {
+    color: var(--color-primary);
 }
 
 header .btn-header {
@@ -26,5 +33,60 @@ header .btn-header {
     font-weight: var(--font-weight-bold);
     color: var(--color-neutral-white);
     text-decoration: none;
+    border: 1px solid var(--color-primary);
+    transition: 0.2s;
+}
+
+header .btn-header:hover {
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-primary);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 85.5px;
+    background-color: var(--color-secondary);
+}
+
+main .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 497px;
+    color: var(--color-neutral-white);
+}
+
+main .main-content h1 {
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-bold);
+}
+
+main .main-content span {
+    color: var(--color-primary);
+}
+
+main .main-content p {
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-regular);
+}
+
+main .main-content a {
+    padding: 10px 25px;
+    text-decoration: none;
+    text-align: center;
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-neutral-white);
+    border: 1px solid var(--color-primary);
+    border-radius: 8px;
+    width: 139px;
+    transition: 0.3s;
+}
+
+main .main-content a:hover {
+    background-color: var(--color-primary);
 }
 

@@ -1,0 +1,30 @@
+@import url(global.css);
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 139px;
+    background-color: var(--color-secondary);
+    padding: 45px;
+}
+
+header .nav-header ul {
+    display: flex;
+    gap: 45px;
+    list-style: none;
+}
+
+header .nav-header ul li {
+    color: var(--color-neutral-white);
+}
+
+header .btn-header {
+    background-color: var(--color-primary);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-neutral-white);
+    text-decoration: none;
+}
+

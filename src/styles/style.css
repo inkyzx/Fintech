@@ -90,10 +90,11 @@ main .main-content a:hover {
     background-color: var(--color-primary);
 }
 
-main img {
+.img-hover {
     transition: 0.3s;
 }
-main img:hover {
+
+.img-hover:hover {
     transform: translateY(-10px);
 }
 
@@ -123,10 +124,32 @@ main img:hover {
     font-weight: var(--font-weight-regular);
 }
 
-.section-details img {
-    transition: 0.3s;
+.section-growth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 60px 0;
+    background-color: var(--color-secondary);
 }
-.section-details img:hover {
-    transform: translateY(-10px);
+
+.growth-details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: var(--color-neutral-white);
+    text-align: center;
+    width: 730px;
 }
+
+.growth-details h2 {
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-bold);
+}
+
+.growth-details p {
+    font-size: var(--font-size-body);
+}
+
 

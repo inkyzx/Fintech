@@ -64,7 +64,7 @@ main .main-content h1 {
     font-weight: var(--font-weight-bold);
 }
 
-main .main-content span {
+span {
     color: var(--color-primary);
 }
 
@@ -88,5 +88,45 @@ main .main-content a {
 
 main .main-content a:hover {
     background-color: var(--color-primary);
+}
+
+main img {
+    transition: 0.3s;
+}
+main img:hover {
+    transform: translateY(-10px);
+}
+
+.section-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 75.5px 0;
+    background-color: var(--color-neutral-white);
+}
+
+.details-card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 607px;
+}
+
+.details-card h2 {
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-bold);
+}
+
+.details-card p {
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-regular);
+}
+
+.section-details img {
+    transition: 0.3s;
+}
+.section-details img:hover {
+    transform: translateY(-10px);
 }
 

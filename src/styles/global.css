@@ -1,0 +1,27 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;   
+}
+
+
+:root {
+    --color-primary: #9130F4;
+    --color-secondary: #121139;
+    --color-neutral-white: #F4F4F4;
+
+    --font-size-body: 16px;
+    --font-size-button: 16px;
+    --font-size-caption: 14px;
+    --font-size-h1: 54px;
+    --font-size-h2: 45px;
+    --font-size-h3: 35px;
+    --font-size-h4: 30px;
+    --font-size-h5: 25px;
+
+    --font-weigh-regular: 400;
+    --font-weigh-bold: 700;
+    --font-weigh-medium: 500;
+}
